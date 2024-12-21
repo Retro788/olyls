@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- TextView para mostrar el título del manual -->
+    <TextView
+        android:id="@+id/textViewTituloManual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Título del Manual"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <!-- TextView para mostrar el contenido del manual -->
+    <TextView
+        android:id="@+id/textViewContenidoManual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contenido del manual..."
+        android:textSize="16sp"
+        android:layout_below="@id/textViewTituloManual"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>

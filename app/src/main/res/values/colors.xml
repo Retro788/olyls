@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+
+
+    <!-- Colores personalizados -->
+    <color name="buttonColor">#EC8F01</color>
+    <color name="white">#FFFFFF</color>
+    <color name="backgroundColor">#C3BFBF</color>
+
+    <!-- Color del texto de los botones -->
+    <color name="buttonTextColor">#FFFFFF</color>
+
+</resources>
